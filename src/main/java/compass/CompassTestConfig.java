@@ -2,7 +2,7 @@ package compass;
 
 public class CompassTestConfig {
     public static CompassUtilities u = CompassUtilities.getInstance();
-    
+
     protected static void testConfig()
     {
         // createKey() and sectionExists() are not tested. They are not called from outside, so toUpperCase() is not called on its arguments
