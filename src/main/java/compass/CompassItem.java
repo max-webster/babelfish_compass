@@ -24,7 +24,7 @@ public class CompassItem {
     public void setName(String name) {
         this.name = name;
     }
-    
+
     public String getName() {
         return name;
     }
@@ -32,11 +32,11 @@ public class CompassItem {
     public void setLineNr(int pLineNr) {
         this.lineNr = pLineNr;
     }
-    
+
     public int getLineNr() {
         return lineNr;
     }
-    
+
     public void attributeAppend(String s) {
         if (s != null && !s.isEmpty() && !s.matches("^\\s+$")) {
             if (attributes.length() > 0) {
@@ -45,8 +45,8 @@ public class CompassItem {
             attributes += s;
         }
     }
-    
+
     public String getAttributes() {
-    	return attributes;
+        return attributes;
     }
 }
